@@ -1,1 +1,13 @@
 // Specific CSS for your home-page
+body{
+  background-color: white;
+}
+
+.text-welcome{
+  color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 90px;
+}
