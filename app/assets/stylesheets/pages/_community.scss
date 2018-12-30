@@ -1,0 +1,86 @@
+.grid-structure{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(12,auto);
+  grid-template-rows: repeat(16,auto);
+  padding: 10px;
+}
+
+.grid-ambassador-1{
+  color: transparent;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546170695/Cocoon/Screenshot_2018-12-30_at_12.12.48.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-ambassador-2{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546170695/Cocoon/Screenshot_2018-12-30_at_12.38.03.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-ambassador-3{
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546184561/Cocoon/Screenshot_2018-12-30_at_12.12.01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-ambassador-4{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 9;
+  grid-row-end: 13;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546170693/Cocoon/Screenshot_2018-12-30_at_12.13.51.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.grid-ambassador-5{
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 13;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546170693/Cocoon/Screenshot_2018-12-30_at_12.51.01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-ambassador-6{
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 13;
+  grid-row-end: 17;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546185355/Cocoon/Screenshot_2018-12-30_at_16.51.40.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-ambassador-7{
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 13;
+  grid-row-end: 17;
+  background-image: url('https://res.cloudinary.com/duvckrs49/image/upload/v1546185355/Cocoon/Screenshot_2018-12-30_at_16.55.32.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
